@@ -1,10 +1,20 @@
 {
-  "name": "$name$",
-  "version": "$version$",
-  "description": "$END$",
-  "main": "$main$",
+  "name": "chat-backend",
+  "version": "1.1.0",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "private": true
+  "author": "Netology",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "1.20.2",
+    "cors": "2.8.5",
+    "express": "4.21.0",
+    "ws": "8.13.0",
+    "pino": "8.17.2",
+    "pino-pretty": "10.3.1"
+  }
 }
